@@ -42,11 +42,11 @@ public class SlaffkaApplication implements CommandLineRunner{
 		System.out.println(g2);
 		
 		service.delete(4);		
-		service.delete(400);*/
+		service.delete(400);
 		
 		List<Gopnik> list = service.getAllGopniks();
 		for(Gopnik g : list) {
 			System.out.println(g);
-		}		
+		}	*/	
 	}	
 }
